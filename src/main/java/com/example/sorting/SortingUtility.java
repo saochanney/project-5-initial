@@ -3,19 +3,19 @@ package com.example.sorting;
 public class SortingUtility {
 
 
-    public static <T extends Comparable<T>> void gnomeSort(T[] data) {
+    public static <T extends Comparable<T>> void gnomeSort(T[] a) {
 
         // TODO implement Gnome Sort here
     }
 
 
-    public static <T extends Comparable<T>> void cocktailShakerSort(T[] data) {
+    public static <T extends Comparable<T>> void cocktailShakerSort(T[] a) {
 
         // TODO implement Cocktail Shaker Sort here
     }
 
 
-    public static <T extends Comparable<T>> void shellSort(T[] data) {
+    public static <T extends Comparable<T>> void shellSort(T[] a) {
 
         // TODO implement Shell Sort here
     }
