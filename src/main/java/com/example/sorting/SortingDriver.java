@@ -12,7 +12,7 @@ public class SortingDriver {
         // Generate array of random Integers
         Integer[] arr = IntStream.generate(() -> (int) (Math.random() * 50000))
                 .boxed()
-                .limit(100000)
+                .limit(10000)
                 .toArray(Integer[]::new);
 
         Integer[] copy1 = copyArray(arr);
