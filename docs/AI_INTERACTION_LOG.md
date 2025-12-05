@@ -55,6 +55,9 @@ a[j] = temp
 }
   * I explained what I needed from the method but a lot of the # from the psuedocode made the spacing on this document weird, so I had to take them out for my brain. I made sure that the variables are taken straight from the psuedocode
   * The code does not automatically import the collections, so after I pasted in the code into the program, I made sure to import those Array and ArrayList collections to make the program useable.
+* for testing class:
+  i need to create a test class named SortingUtilityTest.java that has test categories empty array: [], single element array: [5], a sorted array: [1, 2, 3, 4, 5], a reverse sorted array: [5, 4, 3, 2, 1], a duplicates array: [3, 1, 4, 1, 5, 9, 2, 6, 5, 3], an array with all the same elements: [5, 5, 5, 5, 5], an array with two elements swapped: [2, 1], an array with two elements sorted: [1, 2], a random order array:; [64, 34, 25, 12, 22, 11, 90], and a String array that tests comparable objects other than integers: ["zebra", "apple", "mango", "banana"]. The class must use JUnit 5, tests generic Comparable types, covers all required categories, includes algorithm-specific tests, and provides additional AI-identified edge cases to the specific algorithms, and the tests check proper sorting behavior. Some algorithm=specific considerations that should be taken into account, the gnome sort test that pos variable handles edge cases correctly, the cocktail shaker sort test bidirectional behavior, and verify the tests work with generic comparable types and not just integers. 
+  * 
 
 
 Below I asked AI for first but it's a lot so I put it at the bottom of the log
