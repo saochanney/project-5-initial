@@ -95,7 +95,7 @@ public class SortingUtilityTest {
 
     @Test
     @DisplayName("Gnome Sort: Edge case - pos variable at boundary")
-    public void testGnomeSortPosAtBoundary() {
+    public void testGnomeSortPosAtBoundaryEdgeCase() {
         // Tests that pos correctly handles moving back to position 0
         Integer[] arr = {3, 2, 1};
         SortingUtility.gnomeSort(arr);
